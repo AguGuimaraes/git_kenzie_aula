@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: #121214;
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfis {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-family: 'Helvetica';
+}
+
+.boxItem1{
+    width: 164px;
+    border: 2px solid transparent;
+}
+
+.boxItem2{
+    width: 164px;
+    border: 2px solid transparent;
+}
+
+.boxItem3{
+    width: 164px;
+    border: 2px solid transparent;
+}
+
+.boxItem4{
+    width: 164px;
+    border: 2px solid transparent;
+    object-fit: contain;
+}
+
+.perfilImagem{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid transparent;
+}
+
+.perfilImagemPlus{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid transparent;
+}
+
+img{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.perfilNome{
+    display: flex;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    color: #9c9c9c;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+button{
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    margin-top: 15px;
+}
+
+.boxItem1:hover{
+    cursor: pointer;
+}
+
+.boxItem1:hover img{
+    border: 2px solid #ffffff;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.boxItem1:hover p{
+    color: #ffffff;
+}
+
+.boxItem2:hover{
+    cursor: pointer;
+}
+
+.boxItem2:hover img{
+    border: 2px solid #ffffff;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.boxItem2:hover p{
+    color: #ffffff;
+}
+
+.boxItem3:hover{
+    cursor: pointer;
+}
+
+.boxItem3:hover img{
+    border: 2px solid #ffffff;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.boxItem3:hover p{
+    color: #ffffff;
+}
+.boxItem4:hover{
+    cursor: pointer;
+}
+
+.boxItem4:hover img{
+    border: 2px solid #ffffff;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.boxItem4:hover p{
+    color: #ffffff;
+}
+
+.perfilImagem:hover{
+    border: 2px solid #ffffff ;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: #121214;
+    border: 2px solid #ffffff;
+    transition: all 0.5s;
+}
